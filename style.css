@@ -77,3 +77,40 @@ section {
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
 }
+.caixa-principal {
+    min-width:100vh;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-principal div {
+    max-width: 60rem;
+}
+
+.caixa-principal div h3 {
+    color: #fff;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+.caixa-principal div p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.caixa-principal div a {
+    background-color: var(--main-color);
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    transition: 0.3s linear;
+}
+
+.caixa-principal div a:hover {
+    letter-spacing: 0.1rem;
+}
+

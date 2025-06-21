@@ -65,6 +65,13 @@ section {
 }
 
 .header section nav a {
+    margin:  0 1rem;
+    font-size: 1.8rem;
+    color: #fff;    
+}
 
-
+.header section nav a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
 }

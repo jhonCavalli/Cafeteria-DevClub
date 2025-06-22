@@ -17,13 +17,13 @@
 .caixa-video {
     position: fixed;
     z-index: -1;
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
 }
 
 .caixa-video video {
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 180%;
     position: fixed;
     top: 0;
 }
@@ -33,7 +33,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.99) 50%, rgba(10, 12, 16, 0.99) 85%);  
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
 section {
@@ -111,10 +111,7 @@ section {
     padding: 1rem 3rem;
     border: none;
     transition: 0.3s linear;
-}
 
-.caixa-principal div a:hover {
-    letter-spacing: 0.1rem;
 }
 
 .titulo {

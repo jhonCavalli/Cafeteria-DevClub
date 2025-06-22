@@ -18,6 +18,7 @@
           "iframe[referrerpolicy=no-referrer-when-downgrade]"
         ]
       }
-    ]
+    ],
+    "no-inline-styles": "off"
   }
 }

@@ -140,7 +140,30 @@ section {
 
 .caixa-sobre .sobre-container .caixa-imagem {
     flex: 1 1 45rem;
+
+}
+
+.caixa-sobre .sobre-container .caixa-imagem img {
+    width: 100%;
+}
+
+.caixa-principal .sobre-container .caixa-texto {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.caixa-principal .sobre-container .caixa-texto h3 {
     
+}
+
+
+.caixa-principal .sobre-container .caixa-texto p {
+
+}
+
+
+.caixa-principal .sobre-container .caixa-texto a {
+
 }
 
 

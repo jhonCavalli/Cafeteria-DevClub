@@ -84,19 +84,20 @@ section {
 }
 
 .caixa-principal div {
-    max-width: 50rem;
+    max-width: 60rem;
     
 }
 
 .caixa-principal div h3 {
     color: #fff;
-    font-size: 5rem;
+    font-size: 6rem;
     text-transform: uppercase;
 }
 .caixa-principal div p {
     font-size: 2rem;
     color: #fff;
     font-weight: lighter;
+    padding: 2rem 0;
     line-height: 1.8;
 }
 
@@ -104,9 +105,10 @@ section {
     background-color: var(--main-color);
     cursor: pointer;
     margin-top: 2rem;
-    font-size: 1.6rem;
+    display: inline-block;
+    font-size: 1.7rem;
     color: #fff;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     border: none;
     transition: 0.3s linear;
 }

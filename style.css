@@ -168,7 +168,11 @@ section {
 }
 
 .modal {
-
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
 } 
 
 .mascara-modal {

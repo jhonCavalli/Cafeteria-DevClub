@@ -138,27 +138,33 @@ section {
     flex-wrap: wrap;
 }
 
-.caixa-sobre .sobre-container .caixa-imagem {
+.caixa-sobre .sobre-container .sobre-imagem {
     flex: 1 1 45rem;
 
 }
 
-.caixa-sobre .sobre-container .caixa-imagem img {
+.caixa-sobre .sobre-container .sobre-imagem img {
     width: 100%;
 }
 
-.caixa-principal .sobre-container .caixa-texto {
+.caixa-sobre .sobre-container .sobre-texto {
     flex: 1 1 45rem;
     padding: 2rem;
 }
 
-.caixa-principal .sobre-container .caixa-texto h3 {
+.caixa-sobre .sobre-container .sobre-texto h3 {
+    font-size: 3rem;
+    color: #fff;
 
 }
 
 
-.caixa-principal .sobre-container .caixa-texto p {
-
+.caixa-sobre .sobre-container .sobre-texto p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.8;
+    padding: 1rem 0;
 }
 
 

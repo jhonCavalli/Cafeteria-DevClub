@@ -125,4 +125,8 @@ section {
     font-size: 4rem;
 }
 
+.caixa-sobre h2 span {
+    color: var(--main-color);
+}
+
 

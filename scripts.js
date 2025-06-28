@@ -10,6 +10,6 @@ function mostrarModal() {
 }
 
 function fecharModal() {
-    modal.style.left = '-100%';
+    modal.style.left = '-30%';
     modal.style.visibility = 'hidden';
 }

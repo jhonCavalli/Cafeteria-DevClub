@@ -174,11 +174,11 @@ section {
     top: 50%;
     left: -30%;
     transform: translate(-50%, -50%);
+    transition: left 1s linear;
 } 
 
 .mascara-modal {
     visibility: hidden;
-    transition: visibility 1s linear;
     z-index: 3;
     position: fixed;
     inset: 0;
@@ -187,7 +187,3 @@ section {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 
 }
-
-
-
-

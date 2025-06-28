@@ -6,6 +6,13 @@
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
 
+body {
+    background-color: var(--bg);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -186,4 +193,8 @@ section {
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 
+}
+
+@media screen {
+    
 }

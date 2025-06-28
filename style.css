@@ -50,7 +50,7 @@ section {
 }
 
 .header {
-    position: fixed;
+   height: 8rem;
     top: 0;
     left: 0;
     z-index: 2;
@@ -85,6 +85,7 @@ section {
     padding-bottom: 0.5rem;
 }
 .caixa-principal {
+    padding-top: 8rem;
     min-width:100vh;
     display: flex;
     align-items: center;
